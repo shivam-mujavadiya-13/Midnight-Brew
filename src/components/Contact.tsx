@@ -139,24 +139,24 @@ export default function Contact() {
               
               <div className="space-y-6">
                 {/* Phone */}
-                <a href="tel:+15550192834" className="flex items-start gap-4 group">
+                <a href="tel:+917694974009" className="flex items-start gap-4 group">
                   <span className="p-2 rounded-xl bg-amber-500/10 text-amber-400 group-hover:bg-amber-400 group-hover:text-stone-900 transition duration-300">
                     <Phone size={18} />
                   </span>
                   <div>
                     <p className="text-[10px] font-mono uppercase tracking-wider text-stone-400">Call Concierge</p>
-                    <p className="text-sm font-medium text-stone-200 font-sans group-hover:text-amber-300 transition">+1 (555) 019-2834</p>
+                    <p className="text-sm font-medium text-stone-200 font-sans group-hover:text-amber-300 transition">+91 76949 74009</p>
                   </div>
                 </a>
 
                 {/* Email */}
-                <a href="mailto:concierge@midnightbrew.com" className="flex items-start gap-4 group">
+                <a href="mailto:shivamporwal1304@gmail.com" className="flex items-start gap-4 group">
                   <span className="p-2 rounded-xl bg-amber-500/10 text-amber-400 group-hover:bg-amber-400 group-hover:text-stone-900 transition duration-300">
                     <Mail size={18} />
                   </span>
                   <div>
                     <p className="text-[10px] font-mono uppercase tracking-wider text-stone-400">Send Email</p>
-                    <p className="text-sm font-medium text-stone-200 font-sans group-hover:text-amber-300 transition">concierge@midnightbrew.com</p>
+                    <p className="text-sm font-medium text-stone-200 font-sans group-hover:text-amber-300 transition">shivamporwal1304@gmail.com</p>
                   </div>
                 </a>
 
@@ -167,7 +167,7 @@ export default function Contact() {
                   </span>
                   <div>
                     <p className="text-[10px] font-mono uppercase tracking-wider text-stone-400">Our Address</p>
-                    <p className="text-sm font-medium text-stone-200 font-sans">420 Velvet Lane, Suite B, Old Town, Metropolis</p>
+                    <p className="text-sm font-medium text-stone-200 font-sans">Velvet Lane, MP, India</p>
                   </div>
                 </div>
 
@@ -240,7 +240,7 @@ export default function Contact() {
               <div className="relative w-full bg-stone-900/90 text-stone-300 p-3 flex justify-between items-center z-10 border-t border-stone-800 text-[10px] font-mono">
                 <span className="flex items-center gap-1">
                   <Navigation size={11} className="text-amber-400 animate-pulse" />
-                  Coords: 42.1283° N, 71.0594° W
+                  Coords: 22.9734° N, 78.6569° E
                 </span>
                 <span className="text-amber-400 font-bold">Zoom: {mapZoom}x</span>
               </div>

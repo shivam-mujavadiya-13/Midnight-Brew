@@ -66,7 +66,7 @@ export default function Navbar({ onOpenReservation, onOpenCustomizer, activeRese
           <a href="#home" className="flex items-center gap-3 group">
             <div className="relative w-10 h-10 overflow-hidden rounded-full border border-amber-200/50 shadow-sm bg-amber-50/20">
               <img 
-                src="/logo.svg" 
+                src="./logo.svg" 
                 alt="Midnight Brew Logo" 
                 className="w-full h-full object-cover transition duration-300 group-hover:scale-105"
                 referrerPolicy="no-referrer"

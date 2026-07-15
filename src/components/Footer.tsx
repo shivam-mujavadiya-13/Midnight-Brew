@@ -36,7 +36,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="relative w-12 h-12 overflow-hidden rounded-full border border-amber-500/20 bg-stone-900/40">
                 <img 
-                  src="/logo.svg" 
+                  src="./logo.svg" 
                   alt="Midnight Brew Logo" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
