@@ -1,0 +1,8 @@
+{
+  "name": "Midnight Brew",
+  "description": "A premium, elegant coffee shop website featuring a cozy classic aesthetic, custom interactive coffee selector, dynamic reservations, customer feedback loops, and an immersive menu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

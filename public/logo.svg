@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Definitions for gradients/paths -->
+  <defs>
+    <!-- Curve for Brewed to Perfection text -->
+    <path id="textCurve" d="M 95,370 A 175,175 0 0,0 405,370" fill="none" />
+  </defs>
+
+  <!-- Cream Circular Background -->
+  <circle cx="250" cy="250" r="235" fill="#FCFAF6" stroke="#8C6239" stroke-width="3" />
+  <circle cx="250" cy="250" r="228" fill="none" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="4,2" />
+  <circle cx="250" cy="250" r="224" fill="none" stroke="#8C6239" stroke-width="1" />
+
+  <!-- Stars and Crescent Moon -->
+  <!-- Crescent Moon -->
+  <path d="M 250,85 A 25,25 0 1,0 250,135 A 20,20 0 1,1 250,85 Z" fill="#C29243" transform="rotate(-15, 250, 110)" />
+  <!-- Stars -->
+  <!-- Top Left Star -->
+  <path d="M 175,125 L 178,131 L 184,134 L 178,137 L 175,143 L 172,137 L 166,134 L 172,131 Z" fill="#C29243" />
+  <!-- Top Right Star -->
+  <path d="M 325,115 L 328,121 L 334,124 L 328,127 L 325,133 L 322,127 L 316,124 L 322,121 Z" fill="#C29243" />
+  <!-- Small Star Dots -->
+  <circle cx="210" cy="110" r="2" fill="#C29243" />
+  <circle cx="295" cy="120" r="2" fill="#C29243" />
+  <circle cx="340" cy="135" r="2.5" fill="#C29243" />
+  <circle cx="160" cy="150" r="2" fill="#C29243" />
+
+  <!-- Steam wisps -->
+  <path d="M 235,170 Q 230,155 240,145 T 235,125" fill="none" stroke="#C29243" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+  <path d="M 250,170 Q 248,150 256,140 T 252,120" fill="none" stroke="#8C6239" stroke-width="2.5" stroke-linecap="round" opacity="0.75" />
+  <path d="M 265,170 Q 270,155 262,145 T 267,125" fill="none" stroke="#C29243" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+
+  <!-- Coffee Cup and Saucer -->
+  <!-- Saucer Shadows & Outer Ring -->
+  <ellipse cx="250" cy="265" rx="85" ry="25" fill="#EAE2D5" />
+  <ellipse cx="250" cy="265" rx="80" ry="20" fill="none" stroke="#8C6239" stroke-width="3" />
+  <ellipse cx="250" cy="262" rx="76" ry="18" fill="#FCFAF6" stroke="#8C6239" stroke-width="1.5" />
+  
+  <!-- Cup Base / Body -->
+  <!-- Cup shadow -->
+  <path d="M 195,205 C 195,250 305,250 305,205 Z" fill="#4B3621" />
+  <!-- Cup highlight or outer lines -->
+  <path d="M 195,205 C 195,250 305,250 305,205" fill="none" stroke="#8C6239" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Cup Handle -->
+  <path d="M 300,213 C 325,210 330,235 300,243" fill="none" stroke="#8C6239" stroke-width="5.5" stroke-linecap="round" />
+  <path d="M 300,213 C 325,210 330,235 300,243" fill="none" stroke="#4B3621" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- Cup Rim / Coffee Inside -->
+  <ellipse cx="250" cy="205" rx="55" ry="15" fill="#4B3621" stroke="#8C6239" stroke-width="3" />
+  <ellipse cx="250" cy="205" rx="50" ry="11" fill="#2E1E0F" />
+  <!-- Latte Art Coffee Crema -->
+  <ellipse cx="250" cy="205" rx="46" ry="8" fill="#8C6239" />
+  <!-- Heart Latte Art -->
+  <path d="M 250,209 C 242,201 234,207 250,211 C 266,207 258,201 250,209 Z" fill="#FCFAF6" />
+  <path d="M 250,208 C 245,203 238,207 250,210 C 262,207 255,203 250,208 Z" fill="#FCFAF6" />
+  <!-- Accent curves on crema -->
+  <path d="M 220,205 C 230,209 270,209 280,205" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5" />
+
+  <!-- EST. 2024 -->
+  <text x="145" y="217" font-family="'Cinzel', 'Georgia', serif" font-size="14" font-weight="600" fill="#8C6239" letter-spacing="2" text-anchor="end">EST.</text>
+  <circle cx="160" cy="213" r="3" fill="#C29243" />
+  
+  <text x="355" y="217" font-family="'Cinzel', 'Georgia', serif" font-size="14" font-weight="600" fill="#8C6239" letter-spacing="2" text-anchor="start">2024</text>
+  <circle cx="340" cy="213" r="3" fill="#C29243" />
+
+  <!-- MAIN BRAND TEXT -->
+  <!-- Horizontal Separator Lines around MIDNIGHT -->
+  <line x1="85" y1="285" x2="115" y2="285" stroke="#8C6239" stroke-width="1.5" />
+  <text x="250" y="299" font-family="'Cinzel', 'Georgia', 'Playfair Display', serif" font-size="44" font-weight="bold" fill="#1E1005" letter-spacing="5" text-anchor="middle">MIDNIGHT</text>
+  <line x1="385" y1="285" x2="415" y2="285" stroke="#8C6239" stroke-width="1.5" />
+
+  <!-- BREW with gold lines -->
+  <line x1="120" y1="325" x2="165" y2="325" stroke="#C29243" stroke-width="1.5" />
+  <text x="250" y="335" font-family="'Cinzel', 'Georgia', 'Playfair Display', serif" font-size="30" font-weight="bold" fill="#C29243" letter-spacing="12" text-anchor="middle">BREW</text>
+  <line x1="335" y1="325" x2="380" y2="325" stroke="#C29243" stroke-width="1.5" />
+
+  <!-- Subtitle: COFFEE & MEMORIES -->
+  <text x="250" y="360" font-family="'Inter', sans-serif" font-size="10.5" font-weight="bold" fill="#8C6239" letter-spacing="3.5" text-anchor="middle">COFFEE &amp; MEMORIES</text>
+
+  <!-- Bottom Details: Coffee Beans and Leaves -->
+  <!-- Middle Bean -->
+  <g transform="translate(250, 390) scale(0.9)">
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#4B3621" transform="rotate(-15)" />
+    <path d="M -3,-10 Q 2,0 -1,10" fill="none" stroke="#FCFAF6" stroke-width="1.2" transform="rotate(-15)" />
+  </g>
+  <!-- Left Bean -->
+  <g transform="translate(232, 393) scale(0.8)">
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#322011" transform="rotate(-45)" />
+    <path d="M -2,-10 Q 2,0 -1,10" fill="none" stroke="#FCFAF6" stroke-width="1" transform="rotate(-45)" />
+  </g>
+  <!-- Right Bean -->
+  <g transform="translate(268, 393) scale(0.8)">
+    <ellipse cx="0" cy="0" rx="8" ry="12" fill="#322011" transform="rotate(15)" />
+    <path d="M -2,-10 Q 2,0 -1,10" fill="none" stroke="#FCFAF6" stroke-width="1" transform="rotate(15)" />
+  </g>
+
+  <!-- Leaf Sprigs -->
+  <!-- Left Sprig -->
+  <path d="M 215,391 Q 190,387 175,390" fill="none" stroke="#C29243" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M 205,389 Q 200,383 206,381 C 212,383 208,389 205,389 Z" fill="#C29243" />
+  <path d="M 190,388 Q 185,382 191,380 C 197,382 193,388 190,388 Z" fill="#C29243" />
+  <path d="M 180,389 Q 175,383 181,381 C 187,383 183,389 180,389 Z" fill="#C29243" />
+  <!-- Right Sprig -->
+  <path d="M 285,391 Q 310,387 325,390" fill="none" stroke="#C29243" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M 295,389 Q 300,383 294,381 C 288,383 292,389 295,389 Z" fill="#C29243" />
+  <path d="M 310,388 Q 315,382 309,380 C 303,382 307,388 310,388 Z" fill="#C29243" />
+  <path d="M 320,389 Q 325,383 319,381 C 313,383 317,389 320,389 Z" fill="#C29243" />
+
+  <!-- Curved text: BREWED TO PERFECTION -->
+  <text fill="#8C6239" font-family="'Inter', sans-serif" font-size="10" font-weight="bold" letter-spacing="4.2">
+    <textPath href="#textCurve" startOffset="50%" text-anchor="middle">BREWED TO PERFECTION</textPath>
+  </text>
+</svg>
